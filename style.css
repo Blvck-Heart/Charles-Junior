@@ -10,7 +10,6 @@
   padding: 0;
   border: none;
   outline: none;
-  text-transform: capitalize;
   transition: all 0.2s linear;
   box-sizing: border-box;
   text-decoration: none;
@@ -30,8 +29,8 @@ body {
 }
 
 section {
-  padding: 1rem 5rem;
-  min-height: 60vh;
+  padding: 2rem 5rem;
+  min-height: auto;
 }
 
 .heading {
@@ -314,6 +313,25 @@ section .row-2 .skills .progress:nth-child(3) .bar span {
   width: 75%;
 }
 
+.progress:nth-child(4) .bar span {
+  width: 70%;
+}
+
+.progress:nth-child(5) .bar span {
+  width: 85%;
+}
+
+.progress:nth-child(6) .bar span {
+  width: 80%;
+}
+
+.progress:nth-child(7) .bar span {
+  width: 75%;
+}
+
+.progress:nth-child(8) .bar span {
+  width: 80%;
+}
 
 section .row-2 .box-container {
   flex: 1 1 40rem;
